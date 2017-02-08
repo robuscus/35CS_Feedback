@@ -1,8 +1,19 @@
 import java.util.*
+private class Topics{ 
+  static String topic;    
+  
+  String addTopic(String topic){    
+    this.topic = topic;
+    return topic;
+  }
+}
 
 public class Feedback{
   public static void main(String args[]){
     Scanner input = new Scanner(System.in);
+    static String t;
+    Topics topic1 = new Topics();
+    topic1.addTopic(t.nextLine())
     
   }
 }
